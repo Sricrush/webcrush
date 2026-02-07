@@ -20,8 +20,21 @@ This tool is built for Kali Linux / Linux environments and leverages curl for we
 - ✅ Supports multiple domains from command-line, file, or manual input  
 - ✅ Outputs full SSLyze results and highlights vulnerabilities  
 
-## Usage
+## 🔧 Installation
 
+### Clone the Repository
+```bash
+git clone https://github.com/yourusername/web-ssl-tester.git
+```
+### Move into the Directory
+```bash
+cd web-ssl-tester
+```
+### Make the Script Executable
+```bash
+chmod +x web_ssl_scanner.sh
+```
+## Usage
 ### Single domain
 ```bash
 ./web_ssl_scanner.sh https://example.com
