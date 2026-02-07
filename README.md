@@ -28,22 +28,22 @@ git clone https://github.com/Sricrush/webcrush.git
 ```
 ### Move into the Directory
 ```bash
-cd web-ssl-tester
+cd webcrush
 ```
 ### Make the Script Executable
 ```bash
-chmod +x web_ssl_scanner.sh
+chmod +x webcrush.sh 
 ```
 ## Usage
 ### Single domain
 ```bash
-./web_ssl_scanner.sh https://example.com
+./webcrush.sh  https://example.com
 ```
 ### Multiple domains
 ```bash
-./web_ssl_scanner.sh https://example1.com https://example2.com
+./webcrush.sh  https://example1.com https://example2.com
 ```
 ### Domains from file
 ```bash
-./web_ssl_scanner.sh -f domains.txt
+./webcrush.sh  -f domains.txt
 ```
