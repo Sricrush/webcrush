@@ -24,7 +24,7 @@ This tool is built for Kali Linux / Linux environments and leverages curl for we
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/web-ssl-tester.git
+git clone https://github.com/Sricrush/webcrush.git
 ```
 ### Move into the Directory
 ```bash
